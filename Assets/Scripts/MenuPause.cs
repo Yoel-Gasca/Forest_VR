@@ -1,13 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MenuPause : MonoBehaviour
 {
+
     [SerializeField] private GameObject buttonPause;
     [SerializeField] private GameObject menuPause;
     private bool gamePause = false;
-    [SerializeField] private GameObject audio;
+    [SerializeField]new private GameObject audio;
     private void Update(){
         if(Input.GetKeyDown(KeyCode.Escape)){
             if(gamePause){
@@ -31,6 +33,9 @@ public class MenuPause : MonoBehaviour
         buttonPause.SetActive(true);
         menuPause.SetActive(false);
         audio.SetActive(true);
+   }
+   public void Entorno(){
+        SceneManager.LoadScene("Enviroment");
    }
 
    public void Quit(){
