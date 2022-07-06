@@ -3855,13 +3855,43 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6248153215730159962, guid: 5ccd84d1db0227447b817184bf2b775e,
         type: 3}
+      propertyPath: panLevelCustomCurve.m_Curve.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6248153215730159962, guid: 5ccd84d1db0227447b817184bf2b775e,
+        type: 3}
       propertyPath: spreadCustomCurve.m_Curve.Array.data[0].value
       value: 0.5361111
       objectReference: {fileID: 0}
     - target: {fileID: 6248153215730159962, guid: 5ccd84d1db0227447b817184bf2b775e,
         type: 3}
+      propertyPath: panLevelCustomCurve.m_Curve.Array.data[1].time
+      value: 0.17142805
+      objectReference: {fileID: 0}
+    - target: {fileID: 6248153215730159962, guid: 5ccd84d1db0227447b817184bf2b775e,
+        type: 3}
       propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6248153215730159962, guid: 5ccd84d1db0227447b817184bf2b775e,
+        type: 3}
+      propertyPath: panLevelCustomCurve.m_Curve.Array.data[1].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6248153215730159962, guid: 5ccd84d1db0227447b817184bf2b775e,
+        type: 3}
+      propertyPath: panLevelCustomCurve.m_Curve.Array.data[1].inWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 6248153215730159962, guid: 5ccd84d1db0227447b817184bf2b775e,
+        type: 3}
+      propertyPath: panLevelCustomCurve.m_Curve.Array.data[1].outWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 6248153215730159962, guid: 5ccd84d1db0227447b817184bf2b775e,
+        type: 3}
+      propertyPath: reverbZoneMixCustomCurve.m_Curve.Array.data[0].time
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6248153215730159962, guid: 5ccd84d1db0227447b817184bf2b775e,
         type: 3}
