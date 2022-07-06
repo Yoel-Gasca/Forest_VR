@@ -6,10 +6,13 @@ using UnityEngine.SceneManagement;
 public class MenuPause : MonoBehaviour
 {
 
+    //Menu variables
     [SerializeField] private GameObject buttonPause;
     [SerializeField] private GameObject menuPause;
     private bool gamePause = false;
     [SerializeField]new private GameObject audio;
+
+    //Pause function with one key
     private void Update(){
         if(Input.GetKeyDown(KeyCode.Escape)){
             if(gamePause){
@@ -19,6 +22,7 @@ public class MenuPause : MonoBehaviour
             }
         }
     }
+    //Pause function
     public void Pause(){
         gamePause = true;
         Time.timeScale = 0f;
@@ -27,6 +31,7 @@ public class MenuPause : MonoBehaviour
         audio.SetActive(false);
    }
 
+    //Continue function
    public void Continue(){
         gamePause = false;
         Time.timeScale = 1f;
@@ -34,10 +39,13 @@ public class MenuPause : MonoBehaviour
         menuPause.SetActive(false);
         audio.SetActive(true);
    }
+
+    //Scene change
    public void Entorno(){
         SceneManager.LoadScene("Enviroment");
    }
 
+    //Quit the app
    public void Quit(){
         Application.Quit();
    }

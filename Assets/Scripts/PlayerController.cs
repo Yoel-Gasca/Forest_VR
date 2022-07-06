@@ -5,6 +5,7 @@ using UnityEngine;
 [RequireComponent(typeof(CharacterController))]
 public class PlayerController : MonoBehaviour
 {
+  //Control variables
   [Header ("References")]
   public Camera playerCamera;
 
@@ -21,22 +22,26 @@ public class PlayerController : MonoBehaviour
   [Header("Jump")]
   public float jumpHeight = 1.9f;
 
+  //Movement references
   private float cameraVerticalAngle;
   Vector3 moveInput = Vector3.zero;
   Vector3 rotationinput = Vector3.zero;
   CharacterController characterController;
 
+  //Controller
   private void Awake()
   {
     characterController = GetComponent<CharacterController>();
   }
 
+  //Movement and rotation funtions
   private void Update()
   {
     Look();
     Move();
   }
 
+  //Motion Control Function Programming
   private void Move()
   {
     if (characterController.isGrounded){
@@ -60,6 +65,7 @@ public class PlayerController : MonoBehaviour
     characterController.Move(moveInput * Time.deltaTime);
   }
 
+  //Rotation control function programming
   private void Look(){
     rotationinput.x = Input.GetAxis("Mouse X") * rotationSensibility * Time.deltaTime;
     rotationinput.y = Input.GetAxis("Mouse Y") * rotationSensibility * Time.deltaTime;

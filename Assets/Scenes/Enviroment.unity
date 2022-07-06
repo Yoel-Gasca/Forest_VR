@@ -3840,6 +3840,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6248153215730159962, guid: 5ccd84d1db0227447b817184bf2b775e,
         type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6248153215730159962, guid: 5ccd84d1db0227447b817184bf2b775e,
+        type: 3}
       propertyPath: DopplerLevel
       value: 5
       objectReference: {fileID: 0}
