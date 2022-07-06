@@ -68,7 +68,7 @@ MonoBehaviour:
   playerCamera: {fileID: 6248153214388670244}
   gravityScale: -20
   walkSpeed: 10
-  runSpeed: 30
+  runSpeed: 23
   rotationSensibility: 20
   jumpHeight: 2
 --- !u!1 &6248153214388670271
