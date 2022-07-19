@@ -11,6 +11,7 @@ public class MenuPause : MonoBehaviour
     [SerializeField] private GameObject menuPause;
     private bool gamePause = false;
     [SerializeField]new private GameObject audio;
+    [SerializeField] private GameObject audioAmbient;
 
     //Pause function with one key
     private void Update(){
@@ -29,6 +30,7 @@ public class MenuPause : MonoBehaviour
         buttonPause.SetActive(false);
         menuPause.SetActive(true);
         audio.SetActive(false);
+        audioAmbient.SetActive(false);
    }
 
     //Continue function
@@ -38,6 +40,7 @@ public class MenuPause : MonoBehaviour
         buttonPause.SetActive(true);
         menuPause.SetActive(false);
         audio.SetActive(true);
+        audioAmbient.SetActive(true);
    }
 
     //Scene change
