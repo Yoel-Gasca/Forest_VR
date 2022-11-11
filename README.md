@@ -8,6 +8,6 @@ Es una iniciativa desarrollada por el equipo de Power Ups Business y un servidor
 <br>
 Participantes:
 <br>
-Power Ups Business: https://powerupsbusiness.com/
+<a href="https://powerupsbusiness.com/">Power Ups Business</a>
 <br>
 Yoel Gasca Horta
