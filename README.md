@@ -7,6 +7,6 @@ Es una iniciativa desarrollada por el equipo de Power Ups Business y un servidor
 - Project VR<br>
 - Unity 2019<br>
 - GoogleVR Cardboard <br/> <br/>
-Participantes:<br>
+Desarrollado por:<br>
 <a href="https://powerupsbusiness.com/">Power Ups Business</a><br>
 <a href="https://github.com/Yoel-Gasca">Yoel Gasca</a>
