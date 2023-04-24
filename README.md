@@ -9,4 +9,4 @@ Es una iniciativa desarrollada por el equipo de Power Ups Business y un servidor
 - GoogleVR Cardboard <br/> <br/>
 Desarrollado por:<br>
 <a href="https://powerupsbusiness.com/">Power Ups Business</a><br>
-<a href="https://github.com/Yoel-Gasca">Yoel Gasca</a>
+<a href="https://yoel-gasca.github.io/Yoel-GascaWeb/">Yoel Gasca</a>
