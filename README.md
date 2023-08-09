@@ -15,5 +15,5 @@ En este caso en el entorno se puede observar un bosque con muchos árboles, un r
 
 ## Desarrollado por:<br>
 - <a href="https://linktr.ee/Yoel_GH97">Yoel Gasca</a>
-- <a href="https://powerupsbusiness.com/">Power Ups Business</a><br>
+- <a href="https://powerupsbusiness.com/">PowerUps</a><br>
 
