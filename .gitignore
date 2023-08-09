@@ -56,7 +56,7 @@ ExportedObj/
 sysinfo.txt
 
 # Builds
-*.apk
+InstantPreview.apk
 *.aab
 *.unitypackage
 *.app
